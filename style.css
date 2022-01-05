@@ -14,8 +14,8 @@ body {
     flex-flow: column;
     align-items: stretch;
     flex: 0 0 auto;
-    gap: 60px;
-    padding: 40px 60px 60px;
+    gap: 80px;
+    padding: 10px 150px 80px 150px;
     background-color: #1f2937;
 }
 
@@ -81,7 +81,7 @@ button {
 .header-image {
     display: flex;
     flex: 1 1 50%;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     margin-left: 40px;
     background-color: #797d86;
@@ -90,7 +90,7 @@ button {
 .header-image-file {
     /* replace with img file */
     color: white;
-    text-align: right;
+    text-align: center;
 }
 
 /* == == == == == */
@@ -102,9 +102,8 @@ button {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding-top: 30px;
-    padding-bottom: 120px;
+    gap: 40px;
+    padding: 40px 150px 80px 150px;
 }
 
 .content-cards {
@@ -112,7 +111,6 @@ button {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    flex: 0 0 auto;
 }
 
 .card {
@@ -156,7 +154,29 @@ h2 {
 /* == == == == == */
 
 .quote {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
     background-color: #e5e7eb;
+    padding: 120px 150px 80px 150px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    align-self: flex-end;
+    width: auto;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
 }
 
 /* == == == == == */
