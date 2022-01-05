@@ -5,6 +5,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* == == == == == */
+/*     HEADER     */
+/* == == == == == */
+
 .header {
     display: flex;
     flex-flow: column;
@@ -22,7 +26,10 @@ body {
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
-    margin-right: auto;
+}
+
+.header-links {
+    margin-left: auto;
 }
 
 ul {
@@ -55,7 +62,7 @@ h1 {
 
 .header-info {
     color: #c2c4c8;
-    font-size:18px;
+    font-size: 18px;
 }
 
 button {
@@ -86,16 +93,78 @@ button {
     text-align: right;
 }
 
-/* .content {
-    
-} */
+/* == == == == == */
+/*    CONTENT     */
+/* == == == == == */
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 0 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    flex: 0 0 auto;
+    row-gap: 10px;
+    height: auto;
+    width: 150px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: inherit;
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+}
+
+.card-image-file {
+    text-align: center;
+}
+
+.card-text {
+    color: #c2c4c8;
+    font-size: 18px;
+    text-align: center;
+}
 
 h2 {
     margin: 0px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
 }
 
-.footer {
+/* == == == == == */
+/*     QUOTE      */
+/* == == == == == */
+
+.quote {
     background-color: #e5e7eb;
+}
+
+/* == == == == == */
+/*     FOOTER     */
+/* == == == == == */
+
+.footer {
+    padding: 0px;
 }
 
 h3 {
