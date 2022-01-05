@@ -71,11 +71,11 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
+    padding: 5px 20px;
 }
 
 .h-button {
     border: none;
-    padding: 5px 20px;
 }
 
 .header-image {
@@ -184,9 +184,42 @@ h2 {
 /* == == == == == */
 
 .footer {
-    padding: 0px;
+    padding: 80px 150px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 80px;
+}
+
+.footer-text {
+    display: flex;
+    flex-flow: column;
+    flex: 1 0 66%;
 }
 
 h3 {
     margin: 0px;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-info {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 0 33%;
+}
+
+.f-button {
+    border: 1px solid #f9faf8;
 }
